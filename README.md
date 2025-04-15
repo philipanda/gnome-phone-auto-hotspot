@@ -14,3 +14,7 @@ A couple of settings have to be set using gsettings to make the extension work:
 ## Usage
 Once installed and configured a system tray icon will appear.
 Pressing it shows a dropdown menu with two options: "Connect" and "Disconnect".
+
+## Security
+- The hotspot is only identified by its SSID, which can easily be spoofed by a bad actor.
+- Is holding the hotspot password as a gnome extension preference secure?
