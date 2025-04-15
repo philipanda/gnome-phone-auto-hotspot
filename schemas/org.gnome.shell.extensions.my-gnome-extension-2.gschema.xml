@@ -1,0 +1,25 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.gnome-phone-auto-hotspot" path="/org/gnome/shell/extensions/gnome-phone-auto-hotspot/">
+
+    <key name="phone-bt-mac" type="s">
+      <default>'12:34:56:78:9A:BC'</default>
+      <summary>Smartphone BT MAC address</summary>
+    </key>
+
+    <key name="hotspot-ssid" type="s">
+      <default>''</default>
+      <summary>Hotspot SSID</summary>
+    </key>
+
+    <key name="hotspot-password" type="s">
+      <default>''</default>
+      <summary>Hotspot Password</summary>
+    </key>
+
+    <key name="hotspot-hidden" type="b">
+      <default>true</default>
+      <summary>Is the hotspot hidden</summary>
+    </key>
+
+  </schema>
+</schemalist>
