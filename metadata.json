@@ -2,9 +2,10 @@
   "name": "gnome-phone-auto-hotspot",
   "description": "Phone hotspot connector",
   "uuid": "gnome-phone-auto-hotspot@philipanda.ddns.net",
-  "shell-version": [
-    "46"
-  ],
   "settings-schema": "org.gnome.shell.extensions.gnome-phone-auto-hotspot",
+  "shell-version": [
+    "46",
+    "48"
+  ],
   "type": "module"
 }
