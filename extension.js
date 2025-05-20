@@ -125,7 +125,7 @@ class ComboButton extends PanelMenu.Button {
 
         // connect to wifi
         await this._runUntilSucceeds('nmcli radio wifi on');
-        const connect_command = `nmcli dev wifi connect "${this.SSID}" password "${this.PASSWORD}"`;
+        const connect_command = `nmcli dev wifi connect '${this.SSID}' password '${this.PASSWORD}'`;
         const cmd = this.HIDDEN ? connect_command + ` hidden yes` : connect_command;
         await this._runUntilSucceeds(cmd,1000)
         this._shortPopup('Connected');
